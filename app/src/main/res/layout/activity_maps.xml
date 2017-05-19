@@ -11,12 +11,26 @@
         android:layout_height="match_parent" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/latitude_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="sfdfdsfsfdffd"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="28sp" />
+        android:text="sdffs"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_below="@+id/latitude_text"
+        android:id="@+id/longitude_text"
+        android:text="sdffs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
 </RelativeLayout>
 
 
